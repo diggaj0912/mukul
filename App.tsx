@@ -116,16 +116,9 @@ const App: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen bg-[#0a0a0a] text-gray-200 font-sans antialiased">
-      <canvas ref={canvasRef} className="hidden"></canvas>
-      <div 
-        className="absolute inset-0 bg-black opacity-70"
-        style={{
-          backgroundImage: 'radial-gradient(#1a1a1a 1px, transparent 1px)',
-          backgroundSize: '10px 10px',
-        }}
-      ></div>
-      <div className="relative z-10 flex flex-col min-h-screen">
+    <div className="min-h-screen text-gray-200 font-sans antialiased">
+      <canvas ref={canvasRef} className="hidden" />
+      <div className="relative flex flex-col min-h-screen">
         <Header />
         <main className="flex-grow container mx-auto p-4 md:p-8 flex flex-col lg:flex-row gap-8">
           <div className="lg:w-1/2 flex flex-col gap-6">
