@@ -116,7 +116,7 @@ const App: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen text-gray-200 font-sans antialiased">
+    <div className="min-h-screen bg-[#0a0a0a] text-gray-200 font-sans antialiased">
       <canvas ref={canvasRef} className="hidden" />
       <div className="relative flex flex-col min-h-screen">
         <Header />
