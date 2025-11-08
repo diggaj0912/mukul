@@ -1,0 +1,7 @@
+{
+  "name": "CareVision",
+  "description": "An AI-driven monitoring system for elderly and hospital patients, detecting emotional and physical distress from camera feeds.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
